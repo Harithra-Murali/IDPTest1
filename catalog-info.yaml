@@ -3,6 +3,7 @@ kind: Component
 metadata:
   annotations:
     backstage.io/kubernetes-id: kubernetes-component
+    backstage.io/kubernetes-label-selector: kubernetes-component
   name: kubernetes-component
 spec:
   lifecycle: production
